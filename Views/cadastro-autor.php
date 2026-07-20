@@ -9,7 +9,7 @@
 <body>
     <h1>Cadastrar Autor</h1>
 
-    <form action="index.php?classe=autor&acao=cadastrar" method="POST">
+    <form action="../index.php?classe=autor&acao=cadastrar" method="POST">
 
         <label> Nome </label>
         <input type="text" id="nome" name="nome" placeholder="Digite o nome">

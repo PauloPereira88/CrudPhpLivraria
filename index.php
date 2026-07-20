@@ -38,7 +38,8 @@ switch ($classe) {
 switch ($acao) {
     case "listar":
         $controller->listar();
-        break; 
+    break; 
+
     case "cadastrar":
         //se a acao do form vir como cadastrar pegue os dados via GET
         $nome = $_POST['nome'];
